@@ -1,0 +1,17 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer: 
+// Create Date: 02/28/2019 02:53:28 PM
+// Module Name: Keypad
+// Project Name: 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module Keypad(
+    input CLK,
+    input C, A, E, //Columns
+    input B, G, F, D, //rows
+    output DATA[7:0],
+    output INTR
+    );
+endmodule
